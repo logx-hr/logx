@@ -26,14 +26,16 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Nazovite nas </p>
+                                        <p>Klementina Frurjan, CEO, Logistics Manager</p>
+                                        <h2><Link href="tel:+385998199942">+385 99 819 9941</Link></h2><br/>
+                                        <p>Ines Jambrek Ploh, Logistics Manager</p>
                                         <h2><Link href="tel:+385998199942">+385 99 819 9942</Link></h2>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div className="icon-box">
-                                        <span className="icon-location"></span>
+                                    <span className="icon-location"></span>
                                     </div>
 
                                     <div className="text-box">
@@ -48,7 +50,8 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Pošaljite nam e-mail</p>
+                                        <p>Pošaljite nam e-mail</p><br/>
+                                        Damir Furjan, vlasnik
                                         <h2><Link href="mailto:info@logx.hr">info@logx.hr</Link></h2>
                                     </div>
                                 </li>
