@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/img/resource/kamion_crop.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Kamionski prijevoz",
+    "description": "Prijevoz do 24t sa standardnim kamionom 13,6 ili tandemom po cijeloj europi",
+    "link": "zracni-prijevoz"
+  },
+  {
+    "image": "/img/resource/express_posiljka.jpeg",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Express pošiljke",
+    "description": "Express pošiljke unutar cijele EU u roku od 24 sata",
+    "link": "pomorski-prijevoz"
+  },
+  {
+    "image": "/img/resource/kombi.jpeg",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Kombi prijevoz",
+    "description": "Kombi nosivosti do 1000kg, sa podiznom rampom i ručnim viličarem",
+    "link": "cestovni-prijevoz"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "icon-global-network",
+    "title": "Velika mreža",
+    "description": "LogX povezuje vaše poslovanje s međunarodnim čvorištima diljem Europske Unije."
+  },
+  {
+    "icon": "icon-right-time-delivery",
+    "title": "Dostava na vrijeme",
+    "description": "Vi postavite narudžbu, a mi ćemo se pobrinuti za ostalo. Od preuzimanja do carinjenja i praćenja."
+  },
+  {
+    "icon": "icon-support",
+    "title": "Podrška tokom usluga",
+    "description": "Naš predani tim je na zadatku, prateći svaki korak vaše pošiljke i uvijek dostupan za komunikaciju."
+  },
+  {
+    "icon": "icon-special-shipments",
+    "title": "Posebne pošiljke",
+    "description": "Ako vaša roba zahtijeva poseban prijevoz, skladištenje i rukovanje, imamo potrebno stručno znanje."
+  },
+  {
+    "icon": "icon-enter-product-details",
+    "title": "Prilagođena rješenja",
+    "description": "Pružamo personalizirana rješenja za sve proizvode koji se mogu prevesti našim vozilima."
+  },
+  {
+    "icon": "icon-esteemed-company",
+    "title": "Cijenjena tvrtka",
+    "description": "Više od 20 klijenata odabralo nas je kao svog partnera za prijevoz zbog konkurentnosti i kvalitete usluge."
+  }
+]
