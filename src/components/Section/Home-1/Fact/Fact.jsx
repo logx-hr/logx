@@ -45,7 +45,7 @@ const Fact = () => {
                   <h2 className="count d-flex">
                     <span className="odometer" >
                       {isVisible && <AnimatedNumbers
-                        animateToNumber={20} transitions={(index) => ({
+                        animateToNumber={100} transitions={(index) => ({
                           type: "spring",
                           duration: index + 0.9,
                         })} ></AnimatedNumbers>}

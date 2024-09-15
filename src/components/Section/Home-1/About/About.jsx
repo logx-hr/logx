@@ -30,8 +30,8 @@ const About = () => {
                     </h5>
                   </div>
                   <h2>
-                    Digitalizirana i Provjerena <br />
-                    Logistička tvrtka
+                    Digitalizirana i provjerena <br />
+                    logistička tvrtka
                   </h2>
                 </div>
 

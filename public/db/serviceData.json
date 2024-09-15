@@ -19,5 +19,12 @@
     "title": "Kombi prijevoz",
     "description": "Kombi nosivosti do 1000kg, sa podiznom rampom i ručnim viličarem",
     "link": "cestovni-prijevoz"
+  },
+  {
+    "image": "/img/resource/airplane.jpg",
+    "icon": "/img/icon/services/air-freight.png",
+    "title": "Avionski prijevoz",
+    "description": "Povezujemo vas sa svim destinacijama, brzo i pouzdano",
+    "link": "cestovni-prijevoz"
   }
 ]

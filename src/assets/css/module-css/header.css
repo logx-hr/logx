@@ -349,7 +349,7 @@
     left: 0;
     width: 100%;
     margin: auto;
-    background: #011C39;
+    background: #fff;
     -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -403,6 +403,10 @@
 .logo-box-one {
     position: relative;
     display: flex;
+}
+
+.logo-box-one img {
+    height: 80px;
 }
 
 .logo-box-one a {
@@ -572,7 +576,7 @@
 .main-header-one {
     position: relative;
     display: block;
-    background: #011C39;
+    background: #fff;
     z-index: 11;
 }
 
@@ -599,7 +603,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 304px;
+    width: 190px;
     height: 135px;
     z-index: 1;
 }
@@ -664,7 +668,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(180deg, #011C39 -20%, rgba(1, 28, 57, 0.65) 1076%);
+    background: #fff;
     content: "";
 }
 
@@ -727,13 +731,13 @@
 .header-contact-info ul li .icon-box span {
     position: relative;
     display: inline-block;
-    color: var(--thm-primary);
+    color: #b4967f;
     font-size: 16px;
     line-height: 16px;
 }
 
 .header-contact-info ul li p {
-    color: var(--thm-white);
+    color: #000;
     font-size: 14px;
     line-height: 24px;
     font-weight: 600;
@@ -741,7 +745,7 @@
 }
 
 .header-contact-info ul li p a {
-    color: var(--thm-white);
+    color: #000;
 }
 
 .header-contact-info ul li p a:hover {
@@ -866,7 +870,7 @@
 .main-header-one__bottom-right .search-box a {
     position: relative;
     display: block;
-    color: #011c39;
+    color: #fff;
     font-size: 27px;
     line-height: 27px;
     font-weight: 700;

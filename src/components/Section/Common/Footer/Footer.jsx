@@ -33,7 +33,7 @@ const Footer = () => {
                       Prioritet nam je sigurnost vaše robe i zadovoljstvo klijenata.
                     </p>
                     <p className="text2">Dostupni smo</p>
-                    <p className="text3">Pon-Pet: 08-17h</p>
+                    <p className="text3">Pon-Pet: 08-16h</p>
 
                     <div className="footer-social-link">
                       <Link href="#">
@@ -77,15 +77,17 @@ const Footer = () => {
                         <Link href="#services">Kombi prijevoz</Link>
                       </li>
                       <li>
+                        <Link href="#services">Avionski prijevoz</Link>
+                      </li>
+                      <li>
                         <Link href="#services">Express pošiljke</Link>
                       </li>
-
                     </ul>
                   </div>
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay=".4s"
               >
                 <div className="single-footer-widget footer-widget__contact">
@@ -100,7 +102,7 @@ const Footer = () => {
                         </div>
                         <div className="content-box">
                           <p>Adresa</p>
-                          <h4>Splitska 8, 42000 Varaždin</h4>
+                          <h4>Splitska ulica 8,<br/> 42000 Varaždin</h4>
                         </div>
                       </li>
                       <li>
@@ -147,7 +149,7 @@ const Footer = () => {
             <div className="copyright-menu">
               <ul>
                 <li>
-                  <Link href="/">
+                  <Link href="http://omnilink.hr">
                     Made by Omnilink with ♥️
                     <span className="icon-right-arrow-5"></span>
                   </Link>

@@ -152,7 +152,6 @@ Contact One Css
     font-size: 36px;
     line-height: 48px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .contact-page__form-box #contact-form input[type="text"],

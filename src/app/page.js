@@ -27,7 +27,6 @@ export default function Home() {
         <Cta />
         <ChooseUs />
         <Fact />
-        <Faq />
         <Footer />
       </div>
     </div>

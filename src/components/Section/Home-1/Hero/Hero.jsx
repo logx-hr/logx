@@ -14,20 +14,19 @@ const Hero = () => {
         className="swiper-container thm-swiper__slider"
         slidesPerView={1}
         loop={true}
-        effect={"fade"}
         pagination={{
           el: "#main-slider-pagination",
           type: "bullets",
           clickable: true,
         }}
         navigation={{
-          nextEl: "#main-slider__swiper-button-next",
-          prevEl: "#main-slider__swiper-button-prev",
+          nextEl: "#main-slider__swiper-button-prev",
+          prevEl: "#main-slider__swiper-button-next",
         }}
         autoplay={{
           delay: 7000,
         }}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        modules={[Autoplay, Pagination, Navigation]}
       >
         <div className="swiper-wrapper">
           <SwiperSlide className="swiper-slide">
@@ -141,6 +140,46 @@ const Hero = () => {
                   <p>
                     Sve prema Vašoj potrebi za <br/>
                     savršeno isplanirani posao.
+                  </p>
+                  <div className="btn-box">
+                    <Link className="thm-btn" href="contact">
+                      <span className="txt">Kontaktirajte nas</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div
+                className="image-layer"
+                style={{
+                  backgroundImage: "url(/img/slider/avion.png)",
+                }}
+            ></div>
+            <div className="big-title">
+              <h2>Kombi</h2>
+            </div>
+            <div className="icon-one">
+              <img src="/img/icon/slider-v1-icon1.png" alt="" />
+            </div>
+            <div className="icon-two">
+              <img src="/img/icon/slider-v1-icon2.png" alt="" />
+            </div>
+            <div className="container">
+              <div className="main-slider-one__single padding">
+                <div className="main-slider-one__content">
+                  <h3>
+                    <span>04.</span> Avionski prijevoz
+                  </h3>
+                  <h2>
+                    Vaša <br/>
+                    <span>krila </span> za svako<br/>
+                    putovanje
+                  </h2>
+                  <p>
+                    Poletite s nama i raširite <br/>
+                    krila svog poslovanja.
                   </p>
                   <div className="btn-box">
                     <Link className="thm-btn" href="contact">

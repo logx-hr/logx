@@ -170,7 +170,6 @@
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
-    text-transform: capitalize;
     font-family: var(--thm-heading-font);
     margin-bottom: 14px;
 }

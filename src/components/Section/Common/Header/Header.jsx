@@ -70,13 +70,7 @@ const Header = () => {
             <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
                 <div className="main-header-one__outer">
                     <div className="logo-box-one">
-                        <div
-                            className="logo-box-one__bg"
-                            style={{
-                                backgroundImage: "url(/img/logo/logx_logo_white.png)"
-                            }}
-                        ></div>
-                        <Link href="/"><img src="/img/logo/logx_logo_white.png" alt="Logo" /></Link>
+                        <Link href="/"><img src="/img/logo/logx-logo.png" alt="Logo" /></Link>
                     </div>
                     <div className="main-header-one__right">
                         <div className="container">
@@ -90,9 +84,6 @@ const Header = () => {
                                             <div className="main-header-one__top">
                                                 <div
                                                     className="main-header-one__top-pattern"
-                                                    style={{
-                                                        backgroundImage: "url(/img/pattern/header-pattern.png)"
-                                                    }}
                                                 ></div>
                                                 <div className="main-header-one__top-inner">
                                                     <div className="main-header-one__top-left">
@@ -102,7 +93,7 @@ const Header = () => {
                                                                     <div className="icon-box">
                                                                         <span className="icon-pin"></span>
                                                                     </div>
-                                                                    <p>Splitska 8, 42000 Varaždin</p>
+                                                                    <p>Splitska ulica 8, 42000 Varaždin</p>
                                                                 </li>
                                                                 <li>
                                                                     <div className="icon-box">
@@ -157,9 +148,6 @@ const Header = () => {
                                                             <li>
                                                                 <Link href="/#services">Usluge</Link>
                                                             </li>
-                                                            <li>
-                                                                <Link href="/#faq">Najčešća pitanja</Link>
-                                                            </li>
                                                             <li><Link href="contact">Kontakt</Link></li>
                                                         </ul>
                                                     </div>
@@ -175,21 +163,18 @@ const Header = () => {
                                 <nav className="menu-box">
                                     <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose} ><i className="fas fa-times"></i></div>
                                     <div className="nav-logo">
-                                        <Link href="/"><img src="/img/logo/logx_logo.png" /></Link>
+                                        <Link href="/"><img src="/img/logo/logx-logo.png" /></Link>
                                     </div>
                                     <div className="menu-outer">
                                         <ul className="navigation">
-                                                <li>
+                                                <li onClick={mobileMenuClose}>
                                                     <Link href="/">Početna</Link>
                                                 </li>
-                                                <li><Link href="/#about">O nama</Link></li>
-                                                <li>
+                                                <li onClick={mobileMenuClose}><Link href="/#about">O nama</Link></li>
+                                                <li onClick={mobileMenuClose}>
                                                     <Link href="/#services">Usluge</Link>
                                                 </li>
-                                                <li>
-                                                    <Link href="/#faq">Najčešća pitanja</Link>
-                                                </li>
-                                                <li><Link href="contact">Kontakt</Link></li>
+                                                <li onClick={mobileMenuClose}><Link href="contact">Kontakt</Link></li>
                                         </ul>
                                     </div>
                                     <div className="contact-info" style={{backgroundColor: "white", zIndex: "99999"}}>

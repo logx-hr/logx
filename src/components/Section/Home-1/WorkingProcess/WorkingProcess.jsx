@@ -59,7 +59,7 @@ const WorkingProcess = () => {
                     <Link href="#">Dokumentacija</Link>
                   </h2>
                   <p>
-                    Nakon što pošaljete narudžbu putem e-pošte, naše terensko osoblje prikupit će dokumente i pošiljke od pošiljatelja.
+                    Nakon što pošaljete upit za Vaš transport na našu email adresu, stupamo sa Vama u kontakt i provjeravamo adrese utovara i istovara, vrijeme trajanja transporta koje želite , vrstu robu te dimenzije robe.
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const WorkingProcess = () => {
                     <Link href="#">Odaberite lokaciju</Link>
                   </h2>
                   <p>
-                    Procijenit ćemo veličinu i težinu Vašeg tereta te prevesti Vašu robu do odredišta.
+                    Nudimo opciju za Vaš transport i čekamo potvrdu s Vaše strane.
                   </p>
                 </div>
               </div>

@@ -26,7 +26,7 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Klementina Frurjan, CEO, Logistics Manager</p>
+                                        <p>Klementina Furjan, CEO, Logistics Manager</p>
                                         <h2><Link href="tel:+385998199942">+385 99 819 9941</Link></h2><br/>
                                         <p>Ines Jambrek Ploh, Logistics Manager</p>
                                         <h2><Link href="tel:+385998199942">+385 99 819 9942</Link></h2>
@@ -40,6 +40,7 @@ const ContactUsSection = () => {
 
                                     <div className="text-box">
                                         <p>Lokacija ureda</p>
+                                        Damir Furjan, vlasnik
                                         <h2>Splitska 8, 42000 <br /> Varaždin</h2>
                                     </div>
                                 </li>
@@ -51,14 +52,20 @@ const ContactUsSection = () => {
 
                                     <div className="text-box">
                                         <p>Pošaljite nam e-mail</p><br/>
-                                        Damir Furjan, vlasnik
-                                        <h2><Link href="mailto:info@logx.hr">info@logx.hr</Link></h2>
+                                        <p>Klementina Furjan, CEO, Logistics Manager</p>
+                                        <h2><Link
+                                            href="mailto:klementina.furjan@logx.hr">klementina.furjan@logx.hr</Link>
+                                        </h2><br/>
+                                        <p>Ines Jambrek Ploh, Logistics Manager</p>
+                                        <h2><Link
+                                            href="mailto:ines.jambrek-ploh@logx.hr">ines.jambrek-ploh@logx.hr</Link>
+                                        </h2><br/>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div className="icon-box">
-                                        <span className="icon-time"></span>
+                                    <span className="icon-time"></span>
                                     </div>
 
                                     <div className="text-box">

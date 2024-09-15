@@ -13,16 +13,17 @@
     left: 0;
     bottom: 0;
     right: 0;
+    max-height: 847px;
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-transition: -webkit-transform 7500ms ease;
-    transition: -webkit-transform 7500ms ease;
-    transition: transform 7500ms ease;
-    transition: transform 7500ms ease, -webkit-transform 7500ms ease;
+    -webkit-transition: -webkit-transform 1500ms ease;
+    transition: -webkit-transform 1500ms ease;
+    transition: transform 1500ms ease;
+    transition: transform 1500ms ease, -webkit-transform 1500ms ease;
     z-index: 1;
 }
 
@@ -208,7 +209,7 @@
 }
 
 .main-slider-one__content h2 span {
-    color: var(--thm-primary);
+    color: #ffd550;
 }
 
 .main-slider-one__content p {
@@ -309,7 +310,7 @@
 
 #main-slider-pagination {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 60px;
     width: 40px;
     transform: translateY(-50%);

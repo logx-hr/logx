@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1351px) and (max-width: 1800px) {
 
 	.main-header-one__outer {
-		padding-left: 260px;
+		padding-left: 10px;
 	}
 
 	.faq-one .big-title {
@@ -2821,7 +2821,7 @@
 	}
 
 	.logo-box-one {
-		width: 200px;
+		width: 100px;
 		height: 90px;
 	}
 
