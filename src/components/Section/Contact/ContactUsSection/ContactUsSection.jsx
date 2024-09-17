@@ -71,7 +71,7 @@ const ContactUsSection = () => {
                                     <div className="text-box">
                                         <p>Radno vrijeme</p>
                                         <h2>Ponedjeljak - Petak <br />
-                                            08:00 - 17:00</h2>
+                                            08:00 - 16:00</h2>
                                     </div>
                                 </li>
                             </ul>

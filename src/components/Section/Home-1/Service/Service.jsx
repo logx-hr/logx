@@ -31,7 +31,6 @@ const Service = () => {
                     className="thm-swiper__slider swiper-container"
                     spaceBetween={50}
                     slidesPerView={3}
-                    loop={true}
                     pagination={{
                         el: "#service-one__pagination",
                         type: "bullets",
@@ -40,9 +39,6 @@ const Service = () => {
                     navigation={{
                         nextEl: "#team-one__swiper-button-next",
                         prevEl: "#team-one__swiper-button-prev",
-                    }}
-                    autoplay={{
-                        delay: 5000,
                     }}
                     breakpoints={{
                         0: {

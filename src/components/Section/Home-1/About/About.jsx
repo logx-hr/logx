@@ -11,7 +11,6 @@ const About = () => {
 
               <div className="inner clearfix">
                 <img
-                  className="float-bob-y"
                   src="/img/resource/truck_crop.png"
                   alt=""
                 />

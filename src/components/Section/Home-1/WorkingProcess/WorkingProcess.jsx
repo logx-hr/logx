@@ -55,11 +55,8 @@ const WorkingProcess = () => {
                   </div>
                 </div>
                 <div className="working-process-one__single-content">
-                  <h2>
-                    <Link href="#">Dokumentacija</Link>
-                  </h2>
                   <p>
-                    Nakon što pošaljete upit za Vaš transport na našu email adresu, stupamo sa Vama u kontakt i provjeravamo adrese utovara i istovara, vrijeme trajanja transporta koje želite , vrstu robu te dimenzije robe.
+                    Nakon što pošaljete upit za Vaš transport na našu email adresu, stupamo sa Vama u kontakt i provjeravamo adrese utovara i istovara, vrijeme trajanja transporta koje želite , vrstu robe te dimenzije robe.
                   </p>
                 </div>
               </div>
@@ -82,9 +79,6 @@ const WorkingProcess = () => {
                   </div>
                 </div>
                 <div className="working-process-one__single-content">
-                  <h2>
-                    <Link href="#">Odaberite lokaciju</Link>
-                  </h2>
                   <p>
                     Nudimo opciju za Vaš transport i čekamo potvrdu s Vaše strane.
                   </p>
@@ -106,9 +100,6 @@ const WorkingProcess = () => {
                   </div>
                 </div>
                 <div className="working-process-one__single-content">
-                  <h2>
-                    <Link href="#">Partneri do kraja</Link>
-                  </h2>
                   <p>
                     Naši timovi naporno će raditi u svakom koraku putovanja kako bi osigurali da vaša pošiljka bude isporučena na vrijeme.
                   </p>
