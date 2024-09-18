@@ -28,12 +28,10 @@ const Footer = () => {
 
                   <div className="footer-widget__about-inner">
                     <p className="text1">
-                      Pouzdana logistička tvrtka s dugogodišnjim iskustvom u sigurnom prijevozu i skladištenju robe.<br></br>
+                      Pouzdana logistička tvrtka s dugogodišnjim iskustvom u sigurnom prijevozu i skladištenju robe.<br></br><br/>
                       Naš stručni tim pruža personalizirana rješenja za sve vrste transporta, uz jamstvo točnosti i pravovremene isporuke.<br></br>
                       Prioritet nam je sigurnost vaše robe i zadovoljstvo klijenata.
                     </p>
-                    <p className="text2">Dostupni smo</p>
-                    <p className="text3">Pon-Pet: 08-16h</p>
 
                     <div className="footer-social-link">
                       <Link href="#">
@@ -53,15 +51,28 @@ const Footer = () => {
                 </div>
               </div>
               <div
-                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".2s"
+                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay=".2s"
               >
+                <div className="single-footer-widget footer-widget__about">
+                  <div className="title">
+                    <h2>Lokacija</h2>
+                  </div>
 
-
+                  <div className="footer-widget__about-inner">
+                    <p className="text1">
+                      Jalkovečka ulica 106<br></br>
+                      42000 Varaždin<br></br>
+                      Hrvatska
+                    </p>
+                    <p className="text2">Dostupni smo:</p>
+                    <p className="text3">Pon-Pet: 08-16h</p>
+                  </div>
+                </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
+                  className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay=".3s"
               >
                 <div className="single-footer-widget footer-widget__links services">
                   <div className="title">
@@ -88,7 +99,7 @@ const Footer = () => {
               </div>
               <div
                   className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".4s"
+                  data-wow-delay=".4s"
               >
                 <div className="single-footer-widget footer-widget__contact">
                   <div className="title">
@@ -101,7 +112,7 @@ const Footer = () => {
                           <span className="icon-pin"></span>
                         </div>
                         <div className="content-box">
-                          <p>Adresa</p>
+                          <p>Adresa ureda</p>
                           <h4>Splitska ulica 8,<br/> 42000 Varaždin</h4>
                         </div>
                       </li>
