@@ -7,13 +7,6 @@
 	.faq-one .big-title {
 		display: none;
 	}
-
-
-
-
-
-
-
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1770px) {
@@ -25,13 +18,21 @@
 		display: none;
 	}
 
+	.logo-box-one {
+		width: 240px;
+	}
 
+}
 
+@media only screen and (min-width: 1300px) and (max-width: 1550px) {
+	.main-header-one__right {
+		/*padding-left: 190px;*/
+	}
 
 }
 
 
-@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+@media only screen and (min-width: 1200px) and (max-width: 1650px) {
 	.choose-us-one__single .content-box .title-box h3 {
 		font-size: 20px;
 	}

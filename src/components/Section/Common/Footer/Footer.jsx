@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-main__bottom padding-top">
             <div className="row">
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay=".1s"
               >
                 <div className="single-footer-widget footer-widget__about">
@@ -51,10 +51,10 @@ const Footer = () => {
                 </div>
               </div>
               <div
-                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                   data-wow-delay=".2s"
               >
-                <div className="single-footer-widget footer-widget__about">
+                <div className="single-footer-widget footer-widget__links">
                   <div className="title">
                     <h2>Lokacija</h2>
                   </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                   <div className="footer-widget__links-box">
                     <ul>
                       <li>
-                        <Link href="#services">Kamionski prijevoz</Link>
+                      <Link href="#services">Kamionski prijevoz</Link>
                       </li>
                       <li>
                         <Link href="#services">Kombi prijevoz</Link>

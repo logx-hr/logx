@@ -7,6 +7,10 @@
     z-index: 1;
 }
 
+.swiper-slide .thm-btn {
+    color: #fff;
+}
+
 .main-slider-one .image-layer {
     position: absolute;
     top: 0;

@@ -2343,7 +2343,7 @@ label {
 }
 
 .cta-one__inner-box .btn-box .thm-btn {
-  color: var(--thm-primary);
+  color: #fff;
 }
 
 .cta-one__inner-box .btn-box .thm-btn:hover {
