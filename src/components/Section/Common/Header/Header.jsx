@@ -114,26 +114,6 @@ const Header = () => {
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <div className="main-header-one__top-right">
-                                                        <div className="inner">
-                                                            <div className="header-social-links">
-                                                                <ul>
-                                                                    <li>
-                                                                        <Link href="#"><span className="icon-facebook"></span></Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href="#"><span className="icon-twitter"></span></Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href="#"><span className="icon-instagram"></span></Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href="#"><span className="icon-linkedin"></span></Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
 
@@ -182,26 +162,6 @@ const Header = () => {
                                             <span className="icon-telephone-handle-silhouette"></span>
                                         </div>
                                         <p><Link href="tel:+385 99 819 9941">+385 99 819 9941</Link></p>
-                                    </div>
-                                    <div className="social-links" style={{backgroundColor: "white", zIndex: "99999"}}>
-                                        <ul className="clearfix list-wrap"
-                                            style={{backgroundColor: "white", zIndex: "99999"}}>
-                                            <li>
-                                                <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                            </li>
-                                            <li>
-                                            <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#"><i className="fab fa-instagram"></i></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#"><i className="fab fa-youtube"></i></Link>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </nav>
                             </div>

@@ -33,20 +33,6 @@ const Footer = () => {
                       Prioritet nam je sigurnost vaše robe i zadovoljstvo klijenata.
                     </p>
 
-                    <div className="footer-social-link">
-                      <Link href="#">
-                        <span className="icon-facebook"></span>
-                      </Link>
-                      <Link href="#">
-                        <span className="icon-twitter"></span>
-                      </Link>
-                      <Link href="#">
-                        <span className="icon-instagram"></span>
-                      </Link>
-                      <Link href="#">
-                        <span className="icon-linkedin"></span>
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>

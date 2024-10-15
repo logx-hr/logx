@@ -37,28 +37,30 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <head>
+    <head>
         <title>{Metadata.title}</title>
-        <meta name="description" content={Metadata.description} />
+        <meta name="description" content={Metadata.description}/>
+        <meta name="google-site-verification" content="iTRZwocSbNI9egA1AJV96CmlcMkZSQ6QDPXC9d4P1IM"/>
+        <meta name="keywords" content="logistika, logistics, prijevoz, transport, kamion, kombi, avionski prijevoz"/>
         {/* Other Metadata properties */}
         {Metadata.icons && (
-          <React.Fragment>
-            {Metadata.icons.icon.map((icon, index) => (
-              <link key={index} rel="icon" href={icon} />
-            ))}
-            {Metadata.icons.apple && Metadata.icons.apple.map((appleIcon, index) => (
-              <link key={index} rel="apple-touch-icon" href={appleIcon} />
-            ))}
-            {Metadata.icons.shortcut && Metadata.icons.shortcut.map((shortcutIcon, index) => (
-              <link key={index} rel="shortcut icon" href={shortcutIcon} />
-            ))}
-          </React.Fragment>
+            <React.Fragment>
+                {Metadata.icons.icon.map((icon, index) => (
+                    <link key={index} rel="icon" href={icon}/>
+                ))}
+                {Metadata.icons.apple && Metadata.icons.apple.map((appleIcon, index) => (
+                    <link key={index} rel="apple-touch-icon" href={appleIcon}/>
+                ))}
+                {Metadata.icons.shortcut && Metadata.icons.shortcut.map((shortcutIcon, index) => (
+                    <link key={index} rel="shortcut icon" href={shortcutIcon}/>
+                ))}
+            </React.Fragment>
         )}
-      </head>
-      <body>
-      <Loading isLoading={isLoading} />
-        {!isLoading && children}
-      </body>
+    </head>
+    <body>
+    <Loading isLoading={isLoading}/>
+    {!isLoading && children}
+    </body>
     </html>
   );
 }
