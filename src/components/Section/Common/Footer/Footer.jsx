@@ -2,7 +2,6 @@
 import React from 'react';
 import Link from "next/link";
 import ScrollToTop from "react-scroll-to-top";
-import BrandLogo from "~/components/Ui/Logo/BrandLogo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,7 +10,7 @@ const Footer = () => {
 <ScrollToTop smooth top='80' color="white" style={{backgroundColor:"#FFD550", "&:hover": { backgroundColor: "#186265" }}}/>
       <div
         className="footer-one__bg"
-        style={{ backgroundImage: "url(/img/resources/logistics-flow.webp)" }}
+        style={{ backgroundImage: "url(/img/resource/logistics-flow.webp)" }}
       ></div>
       <div className="footer-main padding">
         <div className="container">

@@ -1,27 +1,27 @@
 [
   {
-    "image": "/img/resource/kamion_crop.png",
+    "image": "/img/resource/kamion_crop.webp",
     "icon": "/img/icon/services/road-freight.png",
     "title": "Kamionski prijevoz",
     "description": "Prijevozi do 24 t sa standardnim, box ili frigo LKW 13,6 ili tandemima po cijeloj europi. 12t i 7.5 t kamioni cerada/ box/ frigo, te vangabaritni prijevozi",
     "link": "zracni-prijevoz"
   },
   {
-    "image": "/img/resource/express_posiljka.jpeg",
+    "image": "/img/resource/express_posiljka.webp",
     "icon": "/img/icon/services/road-freight.png",
     "title": "Express pošiljke",
     "description": "Express pošiljke unutar cijele EU u roku od 24 sata",
     "link": "pomorski-prijevoz"
   },
   {
-    "image": "/img/resource/kombi.jpeg",
+    "image": "/img/resource/kombi.webp",
     "icon": "/img/icon/services/road-freight.png",
     "title": "Kombi prijevoz",
     "description": "Kombi nosivosti do 1000kg, sa podiznom rampom i ručnim viličarem",
     "link": "cestovni-prijevoz"
   },
   {
-    "image": "/img/resource/airplane.jpg",
+    "image": "/img/resource/airplane.webp",
     "icon": "/img/icon/services/air-freight.png",
     "title": "Avionski prijevoz",
     "description": "Povezujemo vas sa svim destinacijama, brzo i pouzdano",

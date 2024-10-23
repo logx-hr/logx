@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
 
+
 const Hero = () => {
   return (
     <section className="main-slider main-slider-one">
@@ -14,6 +15,7 @@ const Hero = () => {
         className="swiper-container thm-swiper__slider"
         slidesPerView={1}
         loop={true}
+        lazy={true}
         pagination={{
           el: "#main-slider-pagination",
           type: "bullets",
@@ -24,7 +26,7 @@ const Hero = () => {
           prevEl: "#main-slider__swiper-button-next",
         }}
         autoplay={{
-          delay: 7000,
+          delay: 5000,
         }}
         modules={[Autoplay, Pagination, Navigation]}
       >
@@ -33,7 +35,7 @@ const Hero = () => {
             <div
               className="image-layer"
               style={{
-                backgroundImage: "url(/img/slider/scania.png)",
+                backgroundImage: "url(/img/slider/scania.webp)",
               }}
             ></div>
             <div className="big-title">
@@ -74,7 +76,7 @@ const Hero = () => {
             <div
               className="image-layer"
               style={{
-                backgroundImage: "url(/img/slider/packages.png)",
+                backgroundImage: "url(/img/slider/packages.webp)",
               }}
             ></div>
             <div className="big-title">
@@ -114,7 +116,7 @@ const Hero = () => {
             <div
                 className="image-layer"
                 style={{
-                  backgroundImage: "url(/img/slider/kombi.png)",
+                  backgroundImage: "url(/img/slider/kombi.webp)",
               }}
             ></div>
             <div className="big-title">
@@ -154,7 +156,7 @@ const Hero = () => {
             <div
                 className="image-layer"
                 style={{
-                  backgroundImage: "url(/img/slider/avion.png)",
+                  backgroundImage: "url(/img/slider/avion.webp)",
                 }}
             ></div>
             <div className="big-title">

@@ -3,8 +3,8 @@ import Link from "next/link";
 const ContactUsSection = () => {
     return (
         <section className="contact-page padding">
-            <div className="shape1 float-bob-y"><img src="/img/shape/contact-page-shape1.png" alt="" /></div>
-            <div className="shape2 float-bob-y"><img src="/img/shape/contact-page-shape2.png" alt="" /></div>
+            <div className="shape1 float-bob-y"><img src="/img/shape/contact-page-shape1.webp" alt="Background shape" /></div>
+            <div className="shape2 float-bob-y"><img src="/img/shape/contact-page-shape2.png" alt="Background shape" /></div>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-5">
@@ -12,7 +12,7 @@ const ContactUsSection = () => {
                             <div className="sec-title-style3">
                                 <div className="sub-title">
                                     <div className="icon">
-                                        <img src="/img/icon/title-marker-4.png" alt="" />
+                                        <img src="/img/icon/title-marker-4.png" alt="Title marker" />
                                     </div>
                                     <h5>Stupite u kontakt</h5>
                                 </div>

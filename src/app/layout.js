@@ -36,26 +36,34 @@ export default function RootLayout({ children }) {
 
 
   return (
-    <html lang="en">
+    <html lang="hr">
     <head>
-        <title>{Metadata.title}</title>
-        <meta name="description" content={Metadata.description}/>
-        <meta name="google-site-verification" content="iTRZwocSbNI9egA1AJV96CmlcMkZSQ6QDPXC9d4P1IM"/>
-        <meta name="keywords" content="logistika, logistics, prijevoz, transport, kamion, kombi, avionski prijevoz"/>
-        {/* Other Metadata properties */}
-        {Metadata.icons && (
-            <React.Fragment>
-                {Metadata.icons.icon.map((icon, index) => (
-                    <link key={index} rel="icon" href={icon}/>
-                ))}
-                {Metadata.icons.apple && Metadata.icons.apple.map((appleIcon, index) => (
-                    <link key={index} rel="apple-touch-icon" href={appleIcon}/>
-                ))}
-                {Metadata.icons.shortcut && Metadata.icons.shortcut.map((shortcutIcon, index) => (
-                    <link key={index} rel="shortcut icon" href={shortcutIcon}/>
-                ))}
-            </React.Fragment>
-        )}
+      <title>{Metadata.title}</title>
+      <meta name="description" content={Metadata.description}/>
+      <meta name="google-site-verification" content="iTRZwocSbNI9egA1AJV96CmlcMkZSQ6QDPXC9d4P1IM"/>
+      <meta name="robots" content="index, follow"/>
+      <meta name="mobile-web-app-capable" content="yes"/>
+      <meta name="application-name" content="LogX Logistika"/>
+      <meta property="og:title" content={Metadata.title}/>
+      <meta property="og:site_name" content="LogX Logistika"/>
+      <meta property="og:description" content={Metadata.description}/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+      <meta name="keywords"
+            content="Logistika, Logistics, Prijevoz, Transport, Kamion, Kombi, Avionski prijevoz, Logx, Logx logistika, Logx prijevoz"/>
+      {/* Other Metadata properties */}
+      {Metadata.icons && (
+          <React.Fragment>
+            {Metadata.icons.icon.map((icon, index) => (
+                <link key={index} rel="icon" href={icon}/>
+            ))}
+            {Metadata.icons.apple && Metadata.icons.apple.map((appleIcon, index) => (
+                <link key={index} rel="apple-touch-icon" href={appleIcon}/>
+            ))}
+            {Metadata.icons.shortcut && Metadata.icons.shortcut.map((shortcutIcon, index) => (
+                <link key={index} rel="shortcut icon" href={shortcutIcon}/>
+            ))}
+          </React.Fragment>
+      )}
     </head>
     <body>
     <Loading isLoading={isLoading}/>

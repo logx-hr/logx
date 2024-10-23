@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Block access to specific files
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.pdf$
+
+# Allow access to these directories explicitly
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Add your sitemap location
+Sitemap: https://www.logx.hr/sitemap.xml

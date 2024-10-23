@@ -100,7 +100,7 @@ const Header = () => {
                                                                         <span className="icon-paper-plane"></span>
                                                                     </div>
                                                                     <p>
-                                                                        <Link href="mailto:info@logx.hr">info@logx.hr</Link>
+                                                                        <Link href="mailto:info@logx.hr" aria-label={'Send us an email'}>info@logx.hr</Link>
                                                                     </p>
                                                                 </li>
                                                                 <li>
@@ -108,7 +108,7 @@ const Header = () => {
                                                                         <span className="icon-out-call"></span>
                                                                     </div>
                                                                     <p>
-                                                                        <Link href="tel:+385998199941">+385 99 819 9941</Link>
+                                                                        <Link href="tel:+385998199941" aria-label={'Call us'}>+385 99 819 9941</Link>
                                                                     </p>
                                                                 </li>
                                                             </ul>
@@ -122,13 +122,13 @@ const Header = () => {
                                                     <div className="navbar-wrap main-menu">
                                                         <ul className="navigation">
                                                             <li>
-                                                                <Link href="/">Početna</Link>
+                                                                <Link href="/" aria-label={'Go to homepage'}>Početna</Link>
                                                             </li>
-                                                            <li><Link href="/#about">O nama</Link></li>
+                                                            <li><Link href="#about" aria-label={'Read more about us'}>O nama</Link></li>
                                                             <li>
-                                                                <Link href="/#services">Usluge</Link>
+                                                                <Link href="#services" aria-label={'Read more about our services'}>Usluge</Link>
                                                             </li>
-                                                            <li><Link href="contact">Kontakt</Link></li>
+                                                            <li><Link href="contact" aria-label={'Go to contact page'}>Kontakt</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -143,18 +143,18 @@ const Header = () => {
                                 <nav className="menu-box">
                                     <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose} ><i className="fas fa-times"></i></div>
                                     <div className="nav-logo">
-                                        <Link href="/"><img src="/img/logo/logx-logo.png" /></Link>
+                                        <Link href="/"><img src="/img/logo/logx-logo.png" alt={'Logo'}/></Link>
                                     </div>
                                     <div className="menu-outer">
                                         <ul className="navigation">
                                                 <li onClick={mobileMenuClose}>
-                                                    <Link href="/">Početna</Link>
+                                                    <Link href="/" aria-label={'Go to homepage'}>Početna</Link>
                                                 </li>
-                                                <li onClick={mobileMenuClose}><Link href="/#about">O nama</Link></li>
+                                                <li onClick={mobileMenuClose}><Link href="#about" aria-label={'Read more about us'}>O nama</Link></li>
                                                 <li onClick={mobileMenuClose}>
-                                                    <Link href="/#services">Usluge</Link>
+                                                    <Link href="#services" aria-label={'Read more about our services'}>Usluge</Link>
                                                 </li>
-                                                <li onClick={mobileMenuClose}><Link href="contact">Kontakt</Link></li>
+                                                <li onClick={mobileMenuClose}><Link href="contact" aria-label={'Go to contact page'}>Kontakt</Link></li>
                                         </ul>
                                     </div>
                                     <div className="contact-info" style={{backgroundColor: "white", zIndex: "99999"}}>

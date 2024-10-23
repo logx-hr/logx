@@ -1,5 +1,5 @@
 import ContentCard from "~/components/Ui/Cards/ContentCard";
-import CircleText1 from "~/components/Ui/Components/CircleText";
+
 const About = () => {
   return (
     <div className="about-one padding" id="about">
@@ -11,7 +11,7 @@ const About = () => {
 
               <div className="inner clearfix">
                 <img
-                  src="/img/resource/truck_crop.png"
+                  src="/img/resource/truck_crop.webp"
                   alt=""
                 />
               </div>

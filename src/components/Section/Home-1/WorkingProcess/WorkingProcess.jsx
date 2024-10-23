@@ -1,6 +1,5 @@
 'use client';
 
-import Link from "next/link";
 import { useEffect } from "react";
 import "wowjs/css/libs/animate.css";
 const WorkingProcess = () => {
