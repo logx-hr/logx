@@ -15,24 +15,22 @@ const ErrorSection = () => {
             <div className="error-page__wrapper text-center">
               <div className="error-page__content">
                 <div className="shape1">
-                  <img src="/img/shape/error-page-shape1.png" alt="" />
+                  <img src="/img/shape/error-page-shape1.png" alt="Objekt" />
                 </div>
                 <h2>
                   4
                   <span>
-                    <img src="/img/shape/error-page-shape2.png" alt="" />
+                    <img src="/img/shape/error-page-shape2.png" alt="Objekt" />
                   </span>
                   4
                 </h2>
-                <h3>Opps! Page Not Found</h3>
+                <h3>Ups! Stranica nije pronađena</h3>
                 <p>
-                  The point of using are Ipsum is that it has a more-or-less
-                  normal distribution of
-                  <br /> letterng It is a long established fact.
+                  Stranica koju ste tražili  ne postoji ili je u izradi!
                 </p>
                 <div className="btn-box">
                   <Link className="thm-btn" href="/">
-                    <span className="txt">Back to Homepage</span>
+                    <span className="txt">Natrag na početnu</span>
                   </Link>
                 </div>
               </div>

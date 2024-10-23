@@ -20,7 +20,7 @@ const PageHeader = ({
             <li>
               <span className="icon-right-arrow-5"></span>
             </li>
-            <li>{title} {title==="404"? "page not found" : ""}</li>
+            <li>{title} {title==="404"? "Stranica nije pronađena" : ""}</li>
           </ul>
         </div>
       </div>
