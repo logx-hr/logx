@@ -24,24 +24,32 @@ const ContactUsSection = () => {
                                     <div className="icon-box">
                                         <span className="icon-telephone-call"></span>
                                     </div>
-
-                                    <div className="text-box">
-                                        <p>Klementina Furjan, CEO, Logistics Manager</p>
-                                        <h2><Link href="tel:+385998199942">+385 99 819 9941</Link></h2><br/>
-                                        <p>Ines Jambrek Ploh, Logistics Manager</p>
-                                        <h2><Link href="tel:+385998199942">+385 99 819 9942</Link></h2>
+                                    <div className="text-boxes flex">
+                                        <div className="text-box">
+                                            <p>Nazovite nas</p>
+                                            Klementina Furjan, CEO, Logistics Manager
+                                            <h2><Link href="tel:+385998199942">+385 99 819 9941</Link></h2>
+                                        </div>
+                                        <div className="text-box">
+                                            Ines Jambrek Ploh, Logistics Manager
+                                            <h2><Link href="tel:+385998199942">+385 99 819 9942</Link></h2>
+                                        </div>
+                                        <div className="text-box">
+                                            Nikolina Trakoštanec, Logistics Manager
+                                            <h2><Link href="tel:+385998188812">+385 99 818 8812</Link></h2>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div className="icon-box">
-                                    <span className="icon-location"></span>
+                                        <span className="icon-location"></span>
                                     </div>
 
                                     <div className="text-box">
                                         <p>Lokacija ureda</p>
                                         Damir Furjan, vlasnik
-                                        <h2>Splitska 8, 42000 <br /> Varaždin</h2>
+                                        <h2>Splitska 8, 42000 <br/> Varaždin</h2>
                                     </div>
                                 </li>
 
@@ -50,27 +58,37 @@ const ContactUsSection = () => {
                                         <span className="icon-email"></span>
                                     </div>
 
-                                    <div className="text-box">
-                                        <p>Pošaljite nam e-mail</p><br/>
-                                        <p>Klementina Furjan, CEO, Logistics Manager</p>
-                                        <h2><Link
-                                            href="mailto:klementina.furjan@logx.hr">klementina.furjan@logx.hr</Link>
-                                        </h2><br/>
-                                        <p>Ines Jambrek Ploh, Logistics Manager</p>
-                                        <h2><Link
-                                            href="mailto:ines.jambrek-ploh@logx.hr">ines.jambrek-ploh@logx.hr</Link>
-                                        </h2><br/>
+                                    <div className="text-boxes flex">
+                                        <div className="text-box">
+                                            <p>Pošaljite nam e-mail</p>
+                                            Klementina Furjan, CEO, Logistics Manager
+                                            <h2><Link
+                                                href="mailto:klementina.furjan@logx.hr">klementina.furjan@logx.hr</Link>
+                                            </h2>
+                                        </div>
+                                        <div className="text-box">
+                                            Ines Jambrek Ploh, Logistics Manager
+                                            <h2><Link
+                                                href="mailto:ines.jambrek-ploh@logx.hr">ines.jambrek-ploh@logx.hr</Link>
+                                            </h2>
+                                        </div>
+                                        <div className="text-box">
+                                            Nikolina Trakoštanec, Logistics Manager
+                                            <h2><Link
+                                                href="mailto:nikolina.trakostanec@logx.hr">nikolina.trakostanec@logx.hr</Link>
+                                            </h2>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div className="icon-box">
-                                    <span className="icon-time"></span>
+                                        <span className="icon-time"></span>
                                     </div>
 
                                     <div className="text-box">
                                         <p>Radno vrijeme</p>
-                                        <h2>Ponedjeljak - Petak <br />
+                                        <h2>Ponedjeljak - Petak <br/>
                                             08:00 - 16:00</h2>
                                     </div>
                                 </li>
