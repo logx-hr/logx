@@ -2,12 +2,14 @@
 import React from 'react';
 import Link from "next/link";
 import ScrollToTop from "react-scroll-to-top";
+import {useTranslations} from "next-intl";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const t = useTranslations();
   return (
     <footer className="footer-one ">
-<ScrollToTop smooth top='80' color="white" style={{backgroundColor:"#FFD550", "&:hover": { backgroundColor: "#186265" }}}/>
+      <ScrollToTop smooth top='80' color="white" style={{backgroundColor:"#FFD550", "&:hover": { backgroundColor: "#186265" }}}/>
       <div
         className="footer-one__bg"
         style={{ backgroundImage: "url(/img/resource/logistics-flow.webp)" }}
@@ -22,15 +24,11 @@ const Footer = () => {
               >
                 <div className="single-footer-widget footer-widget__about">
                   <div className="title">
-                    <h2>O LogX-u</h2>
+                    <h2>{t('footer.title-1')}</h2>
                   </div>
 
                   <div className="footer-widget__about-inner">
-                    <p className="text1">
-                      Pouzdana logistička tvrtka s dugogodišnjim iskustvom u sigurnom prijevozu i skladištenju robe.<br></br><br/>
-                      Naš stručni tim pruža personalizirana rješenja za sve vrste transporta, uz jamstvo točnosti i pravovremene isporuke.<br></br>
-                      Prioritet nam je sigurnost vaše robe i zadovoljstvo klijenata.
-                    </p>
+                    <p className="text1"  dangerouslySetInnerHTML={{ __html: t.raw('footer.description-1') }}></p>
 
                   </div>
                 </div>
@@ -41,7 +39,7 @@ const Footer = () => {
               >
                 <div className="single-footer-widget footer-widget__links">
                   <div className="title">
-                    <h2>Lokacija</h2>
+                    <h2>{t('footer.title-2')}</h2>
                   </div>
 
                   <div className="footer-widget__about-inner">
@@ -50,8 +48,8 @@ const Footer = () => {
                       42000 Varaždin<br></br>
                       Hrvatska
                     </p>
-                    <p className="text2">Dostupni smo:</p>
-                    <p className="text3">Pon-Pet: 08-16h</p>
+                    <p className="text2">{t('footer.availability-2')}:</p>
+                    <p className="text3">{t('footer.hours-2')}: 08-16h</p>
                   </div>
                 </div>
               </div>
@@ -61,22 +59,22 @@ const Footer = () => {
               >
                 <div className="single-footer-widget footer-widget__links services">
                   <div className="title">
-                    <h2>Naše usluge</h2>
+                    <h2>{t('footer.title-3')}</h2>
                   </div>
 
                   <div className="footer-widget__links-box">
                     <ul>
                       <li>
-                      <Link href="#services">Kamionski prijevoz</Link>
+                      <Link href="#services">{t('footer.service-3-first')}</Link>
                       </li>
                       <li>
-                        <Link href="#services">Kombi prijevoz</Link>
+                        <Link href="#services">{t('footer.service-3-second')}</Link>
                       </li>
                       <li>
-                        <Link href="#services">Avionski prijevoz</Link>
+                        <Link href="#services">{t('footer.service-3-third')}</Link>
                       </li>
                       <li>
-                        <Link href="#services">Express pošiljke</Link>
+                        <Link href="#services">{t('footer.service-3-fourth')}</Link>
                       </li>
                     </ul>
                   </div>
@@ -88,7 +86,7 @@ const Footer = () => {
               >
                 <div className="single-footer-widget footer-widget__contact">
                   <div className="title">
-                    <h2>Kontakt podaci</h2>
+                    <h2>{t('footer.title-4')}</h2>
                   </div>
                   <div className="footer-widget__contact-box">
                     <ul>
@@ -97,7 +95,7 @@ const Footer = () => {
                           <span className="icon-pin"></span>
                         </div>
                         <div className="content-box">
-                          <p>Adresa ureda</p>
+                          <p>{t('footer.address-4')}</p>
                           <h4>Splitska ulica 8,<br/> 42000 Varaždin</h4>
                         </div>
                       </li>
@@ -119,7 +117,7 @@ const Footer = () => {
                           <span className="icon-out-call"></span>
                         </div>
                         <div className="content-box">
-                          <p>Telefon</p>
+                          <p>{t('footer.phone-4')}</p>
                           <h4>
                             <Link href="tel:+385998199941">+385 99 819 9941</Link>
                           </h4>
@@ -138,7 +136,7 @@ const Footer = () => {
           <div className="footer-bottom__inner">
             <div className="copyright-text">
               <p>
-                © {currentYear} <Link href="/">LogX,</Link> Sva Prava Zadržana.
+                © {currentYear} <Link href="/">LogX,</Link> {t('footer.copyright')}
               </p>
             </div>
 
@@ -146,7 +144,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="http://omnilink.hr">
-                    Made by Omnilink with ♥️
+                    {t('footer.made-by')} ♥️
                     <span className="icon-right-arrow-5"></span>
                   </Link>
                 </li>

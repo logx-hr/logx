@@ -1,6 +1,9 @@
+"use client"
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 
 const Cta = () => {
+  const t = useTranslations();
   return (
     <section className="cta-one">
       <div className="container">
@@ -17,13 +20,13 @@ const Cta = () => {
           <div className="cta-one__inner-box">
             <div className="title-box">
               <h2>
-                Vaš logistički partner koji nudi usluge najviše kvalitete
+                {t('banner.title')}
               </h2>
             </div>
 
             <div className="btn-box">
               <Link className="thm-btn" href="contact">
-                <span className="txt">Zatražite uslugu</span>
+                <span className="txt">{t('banner.button')}</span>
                 <i className="icon-right-arrow"></i>
               </Link>
             </div>

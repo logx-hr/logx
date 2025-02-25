@@ -2,6 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import React, { useEffect, useState } from "react";
+import {useTranslations} from "next-intl";
 
 const Fact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,6 +33,9 @@ const Fact = () => {
       fetchComponent();
 
   }, []);
+
+  const t= useTranslations();
+
   return (
     <section className="fact-counter-one padding-bottom" id="fact-one">
       <div className="container">
@@ -55,7 +59,7 @@ const Fact = () => {
                     </span>
                   </h2>
                   <div className="text">
-                    <p>Zadovoljnih klijenata</p>
+                    <p>{t('counters.first')}</p>
                   </div>
                 </div>
               </div>
@@ -76,7 +80,7 @@ const Fact = () => {
                     </span>
                   </h2>
                   <div className="text">
-                    <p>Uspješno dostavljenih paketa</p>
+                    <p>{t('counters.second')}</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +101,7 @@ const Fact = () => {
                     </span>
                     </h2>
                     <div className="text">
-                        <p>Pređenih kilometara</p>
+                        <p>{t('counters.third')}</p>
                     </div>
                 </div>
               </div>
@@ -119,7 +123,7 @@ const Fact = () => {
                     <span className="plus">+</span>
                   </h2>
                   <div className="text">
-                    <p>Vozila u našoj ponudi</p>
+                    <p>{t('counters.fourth')}</p>
                   </div>
                 </div>
               </div>

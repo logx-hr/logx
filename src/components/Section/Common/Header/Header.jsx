@@ -1,6 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from "~/components/LanguageSwitcher";
+import {usePathname, useRouter} from "next/navigation";
 
 
 const Header = () => {
@@ -11,6 +14,7 @@ const Header = () => {
     const [blog, setBlog] = useState(false);
     const [scrollClassName, setScrollClassName] = useState("");
     const [isOverlayActive, setIsOverlayActive] = useState(false);
+    const t = useTranslations();
   
     const mobileMenuOpen = () => {
       setMobileMenu(true);
@@ -65,6 +69,79 @@ const Header = () => {
       };
     }
 
+
+    const pathname = usePathname();
+    const router = useRouter();
+
+// Get current locale from pathname
+    const getCurrentLocale = () => {
+        const segments = pathname.split('/');
+        const locales = ['hr', 'en', 'de', 'fr', 'es'];
+        return locales.includes(segments[1]) ? segments[1] : 'hr'; // Default to 'hr' if no locale found
+    };
+
+    const currentLocale = getCurrentLocale();
+
+// Check if current page is homepage
+    const isHomePage = pathname === '/' ||
+        pathname === `/${currentLocale}` ||
+        pathname === `/${currentLocale}/`;
+
+// Helper function to determine the correct href for sections with locale
+    const getSectionHref = (sectionId) => {
+        if (isHomePage) {
+            return `?section=${sectionId}`;
+        } else {
+            return `/${currentLocale}?section=${sectionId}`;
+        }
+    };
+
+// Handle section click events
+    const handleSectionClick = (e, sectionId) => {
+        e.preventDefault(); // Prevent default for both homepage and other pages
+
+        if (isHomePage) {
+            // When on homepage, update URL and scroll directly
+            const newUrl = `${window.location.pathname}?section=${sectionId}`;
+            window.history.pushState({}, '', newUrl);
+
+            // Scroll to element
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            // Clean up URL after scrolling
+            setTimeout(() => {
+                window.history.replaceState({}, '', window.location.pathname);
+            }, 1000);
+        } else {
+            // Navigate to homepage with section parameter
+            router.push(`/${currentLocale}?section=${sectionId}`);
+        }
+    };
+
+// Check for section query parameter on page load
+    useEffect(() => {
+        // Check if we have a section parameter in the URL
+        const url = new URL(window.location.href);
+        const section = url.searchParams.get('section');
+
+        if (section) {
+            // Remove the query parameter without triggering a navigation
+            window.history.replaceState({}, document.title, window.location.pathname);
+
+            // Scroll to the section with a slight delay to ensure the page is fully loaded
+            setTimeout(() => {
+                const element = document.getElementById(section);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 300);
+        }
+    }, [pathname, currentLocale]);
+
+
     return (
         <header className="main-header main-header-one">
             <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
@@ -107,13 +184,19 @@ const Header = () => {
                                                                     <div className="icon-box">
                                                                         <span className="icon-out-call"></span>
                                                                     </div>
-                                                                    <p>
-                                                                        <Link href="tel:+385998199941" aria-label={'Call us'}>+385 99 819 9941</Link>
+                                                                    <p className="desktop-only">+385 99 819 9941</p>
+                                                                    <p className="mobile-only">
+                                                                        <Link href="tel:+385998199941"
+                                                                              aria-label={'Call us'}>+385 99 819
+                                                                            9941</Link>
                                                                     </p>
+
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
+
+                                                    <LanguageSwitcher></LanguageSwitcher>
                                                 </div>
                                             </div>
 
@@ -122,13 +205,13 @@ const Header = () => {
                                                     <div className="navbar-wrap main-menu">
                                                         <ul className="navigation">
                                                             <li>
-                                                                <Link href="/" aria-label={'Go to homepage'}>Početna</Link>
+                                                                <Link href={"/" + currentLocale} aria-label={'Go to homepage'}>{t('navigation.home')}</Link>
                                                             </li>
-                                                            <li><Link href="#about" aria-label={'Read more about us'}>O nama</Link></li>
+                                                            <li><Link href={getSectionHref('about')}       onClick={(e) => handleSectionClick(e, 'about')}  aria-label={'Read more about us'}>{t('navigation.about')}</Link></li>
                                                             <li>
-                                                                <Link href="#services" aria-label={'Read more about our services'}>Usluge</Link>
+                                                                <Link href={getSectionHref('services')}       onClick={(e) => handleSectionClick(e, 'services')}  aria-label={'Read more about our services'}>{t('navigation.services')}</Link>
                                                             </li>
-                                                            <li><Link href="contact" aria-label={'Go to contact page'}>Kontakt</Link></li>
+                                                            <li><Link href={"/" + currentLocale + "/contact"} aria-label={'Go to contact page'}>{t('navigation.contact')}</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -143,18 +226,18 @@ const Header = () => {
                                 <nav className="menu-box">
                                     <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose} ><i className="fas fa-times"></i></div>
                                     <div className="nav-logo">
-                                        <Link href="/"><img src="/img/logo/logx-logo.png" alt={'Logo'}/></Link>
+                                        <Link href={"/" + currentLocale}><img src="/img/logo/logx-logo.png" alt={'Logo'}/></Link>
                                     </div>
                                     <div className="menu-outer">
                                         <ul className="navigation">
                                                 <li onClick={mobileMenuClose}>
-                                                    <Link href="/" aria-label={'Go to homepage'}>Početna</Link>
+                                                    <Link href="/" aria-label={'Go to homepage'}>{t('navigation.home')}</Link>
                                                 </li>
-                                                <li onClick={mobileMenuClose}><Link href="#about" aria-label={'Read more about us'}>O nama</Link></li>
+                                                <li onClick={mobileMenuClose}><Link href={getSectionHref('about')}       onClick={(e) => handleSectionClick(e, 'about')}  aria-label={'Read more about us'}>{t('navigation.about')}</Link></li>
                                                 <li onClick={mobileMenuClose}>
-                                                    <Link href="#services" aria-label={'Read more about our services'}>Usluge</Link>
+                                                    <Link href={getSectionHref('services')}       onClick={(e) => handleSectionClick(e, 'services')}  aria-label={'Read more about our services'}>{t('navigation.services')}</Link>
                                                 </li>
-                                                <li onClick={mobileMenuClose}><Link href="contact" aria-label={'Go to contact page'}>Kontakt</Link></li>
+                                                <li onClick={mobileMenuClose}><Link href={"/" + currentLocale + "/contact"} aria-label={'Go to contact page'}>{t('navigation.contact')}</Link></li>
                                         </ul>
                                     </div>
                                     <div className="contact-info" style={{backgroundColor: "white", zIndex: "99999"}}>
@@ -162,6 +245,9 @@ const Header = () => {
                                             <span className="icon-telephone-handle-silhouette"></span>
                                         </div>
                                         <p><Link href="tel:+385 99 819 9941">+385 99 819 9941</Link></p>
+                                    </div>
+                                    <div className="language-switcher">
+                                        <LanguageSwitcher></LanguageSwitcher>
                                     </div>
                                 </nav>
                             </div>

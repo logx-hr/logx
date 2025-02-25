@@ -1,9 +1,12 @@
+"use client"
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 
 const PageHeader = ({
   title,
   bgImage="/img/resource/logistics-flow.webp"
 }) => {
+  const t = useTranslations();
   return (
     <section className="page-header padding">
       <div
@@ -15,7 +18,7 @@ const PageHeader = ({
           <h2>{title}</h2>
           <ul className="thm-breadcrumb">
             <li>
-              <Link href="/">Početna</Link>
+              <Link href="/">{t('contact.section-link')}</Link>
             </li>
             <li>
               <span className="icon-right-arrow-5"></span>

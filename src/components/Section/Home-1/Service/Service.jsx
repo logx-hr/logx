@@ -1,13 +1,22 @@
 "use client";
-import data from '~/public/db/serviceData.json'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ServiceCard from "~/components/Ui/Cards/ServiceCard";
+import {useTranslations} from "next-intl";
 
 const Service = () => {
+    const t = useTranslations();
+
+    const serviceItems = [1, 2, 3, 4].map(index => ({
+        image: t(`services.item-${index}-image`),
+        icon: t(`services.item-${index}-icon`),
+        title: t(`services.item-${index}-title`),
+        description: t(`services.item-${index}-description`),
+        link: t(`services.item-${index}-link`)
+    }));
 
     return (
         <section className="service-one padding-bottom" id="services">
@@ -16,12 +25,10 @@ const Service = () => {
                     <div className="sec-title">
                         <div className="sub-title">
                             <h5>
-                                <span className="icon-right-arrow-1"></span> Naše usluge
+                                <span className="icon-right-arrow-1"></span> {t('services.category')}
                             </h5>
                         </div>
-                        <h2>
-                            Brze i profesionalne <br />
-                            logističke usluge
+                        <h2 dangerouslySetInnerHTML={{ __html: t.raw('services.title') }}>
                         </h2>
                     </div>
 
@@ -68,7 +75,7 @@ const Service = () => {
                     modules={[Autoplay, Pagination, Navigation]}
                 >
                     <div className="swiper-wrapper">
-                        {data?.map((item, index) => (
+                        {serviceItems.map((item, index) => (
                             <SwiperSlide className="swiper-slide" key={index}>
                                 <ServiceCard item={item} />
                             </SwiperSlide>

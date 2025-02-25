@@ -1,0 +1,142 @@
+{
+  "navigation": {
+    "home": "Početna",
+    "about": "O Nama",
+    "services": "Usluge",
+    "contact": "Kontakt"
+  },
+  "slider": {
+    "slider-button": "Kontaktirajte Nas",
+    "slider-1-category": "Kamionski prijevoz",
+    "slider-1-title": " Brzi i pouzdani <br /><span>transport</span> vaših <br />proizvoda",
+    "slider-1-description": "Sa godinama iskustva i tisućama pređenih <br /> kilometara iza nas.",
+    "slider-2-category": "Express Pošiljke",
+    "slider-2-title": "  Snaga na cesti <br/> <span>pouzdanost</span> u <br/> prijevozu",
+    "slider-2-description": "      Šaljite pošiljke unutar cijele EU <br/> u roku od 24 sata!",
+    "slider-3-category": "Kombi prijevoz",
+    "slider-3-title": "Povezujemo <br/> <span>Europu </span> kilometar<br/> po kilometar!",
+    "slider-3-description": "Sve prema Vašoj potrebi za <br/> savršeno isplanirani posao.",
+    "slider-4-category": "Avionski prijevoz",
+    "slider-4-title": "Vaša <br/> <span>krila </span> za svako<br/> putovanje",
+    "slider-4-description": "Poletite s nama i raširite <br/> krila svog poslovanja."
+  },
+  "about": {
+    "big-title": "Transport",
+    "category": "O NAMA",
+    "title": "Digitalizirana i provjerena <br /> logistička tvrtka",
+    "description": "Digitalno napredna logistička tvrtka koja pruža brza, precizna i sigurna rješenja za prijevoz. Koristimo najnovije tehnologije za optimizaciju lanca opskrbe i automatizaciju procesa. Naša pouzdanost i inovativnost osiguravaju učinkovitost i transparentnost u svakom koraku vašeg logističkog putovanja.",
+    "item-1-title": "Brza dostava unutar cijele Europe",
+    "item-1-description": "Pošaljite Vaše proizvode ili pakete na bilo koju lokaciju diljem Europe.",
+    "item-2-title": "Brza i sigurna dostava",
+    "item-2-description": "Uz 100% uspješnosti dostave robe i paketa, nudimo express pošiljke unutar cijele EU u roku od 24 sata!"
+  },
+  "services": {
+    "category": "Naše usluge",
+    "title": "Brze i profesionalne <br /> logističke usluge",
+    "item-1-title": "Kamionski prijevoz",
+    "item-1-description": "Prijevozi do 24 t sa standardnim, box ili frigo LKW 13,6 ili tandemima po cijeloj europi. 12t i 7.5 t kamioni cerada/ box/ frigo, te vangabaritni prijevozi",
+    "item-1-image": "/img/resource/kamion_crop.webp",
+    "item-1-icon": "/img/icon/services/road-freight.png",
+    "item-1-link": "zracni-prijevoz",
+
+    "item-2-title": "Express pošiljke",
+    "item-2-description": "Express pošiljke unutar cijele EU u roku od 24 sata",
+    "item-2-image": "/img/resource/express_posiljka.webp",
+    "item-2-icon": "/img/icon/services/road-freight.png",
+    "item-2-link": "pomorski-prijevoz",
+
+    "item-3-title": "Kombi prijevoz",
+    "item-3-description": "Kombi nosivosti do 1000kg, sa podiznom rampom i ručnim viličarem",
+    "item-3-image": "/img/resource/kombi.webp",
+    "item-3-icon": "/img/icon/services/road-freight.png",
+    "item-3-link": "cestovni-prijevoz",
+
+    "item-4-title": "Avionski prijevoz",
+    "item-4-description": "Povezujemo vas sa svim destinacijama, brzo i pouzdano",
+    "item-4-image": "/img/resource/airplane.webp",
+    "item-4-icon": "/img/icon/services/air-freight.png",
+    "item-4-link": "cestovni-prijevoz"
+  },
+  "steps": {
+    "category": "Provjerite naše korake",
+    "title": "Naš proces rada s teretom",
+    "item-1-title": "Korak - 1",
+    "item-1-description": "Nakon što pošaljete upit za Vaš transport na našu email adresu, stupamo sa Vama u kontakt i provjeravamo adrese utovara i istovara, vrijeme trajanja transporta koje želite , vrstu robe te dimenzije robe.",
+    "item-2-title": "Korak - 2",
+    "item-2-description": "Nudimo opciju za Vaš transport i čekamo potvrdu s Vaše strane.",
+    "item-3-title": "Korak - 3",
+    "item-3-description": "Naši timovi naporno će raditi u svakom koraku putovanja kako bi osigurali da vaša pošiljka bude isporučena na vrijeme."
+  },
+  "banner": {
+    "title": "Vaš logistički partner koji nudi usluge najviše kvalitete",
+    "button": "Zatražite uslugu"
+  },
+  "why-us": {
+    "category": "Zašto mi?",
+    "title": "Nekoliko razloga za odabir",
+    "item-1-title": "Velika mreža",
+    "item-1-description": "LogX povezuje vaše poslovanje s međunarodnim čvorištima diljem Europske Unije.",
+    "item-1-icon": "icon-global-network",
+
+    "item-2-title": "Dostava na vrijeme",
+    "item-2-description": "Vi postavite narudžbu, a mi ćemo se pobrinuti za ostalo. Od preuzimanja do carinjenja i praćenja.",
+    "item-2-icon": "icon-right-time-delivery",
+
+    "item-3-title": "Podrška tokom usluga",
+    "item-3-description": "Naš predani tim je na zadatku, prateći svaki korak vaše pošiljke i uvijek dostupan za komunikaciju.",
+    "item-3-icon": "icon-support",
+
+    "item-4-title": "Posebne pošiljke",
+    "item-4-description": "Ako vaša roba zahtijeva poseban prijevoz, skladištenje i rukovanje, imamo potrebno stručno znanje.",
+    "item-4-icon": "icon-special-shipments",
+
+    "item-5-title": "Prilagođena rješenja",
+    "item-5-description": "Pružamo personalizirana rješenja za sve proizvode koji se mogu prevesti našim vozilima.",
+    "item-5-icon": "icon-enter-product-details",
+
+    "item-6-title": "Cijenjena tvrtka",
+    "item-6-description": "Više od 100 klijenata odabralo nas je kao svog partnera za prijevoz zbog konkurentnosti i kvalitete usluge.",
+    "item-6-icon": "icon-esteemed-company"
+  },
+  "counters": {
+    "first": "Zadovoljnih klijenata",
+    "second": "Uspješno dostavljenih paketa",
+    "third": "Pređenih kilometara",
+    "fourth": "Vozila u našoj ponudi"
+  },
+  "footer": {
+    "title-1": "O LogX-u",
+    "description-1": "Pouzdana logistička tvrtka s dugogodišnjim iskustvom u sigurnom prijevozu i skladištenju robe.<br></br><br/> Naš stručni tim pruža personalizirana rješenja za sve vrste transporta, uz jamstvo točnosti i pravovremene isporuke.<br></br> Prioritet nam je sigurnost vaše robe i zadovoljstvo klijenata.",
+    "title-2": "Lokacija",
+    "availability-2": "Dostupni smo:",
+    "hours-2": "Pon-Pet:",
+    "title-3": "Naše usluge",
+    "service-3-first": "Kamionski Prijevoz",
+    "service-3-second": "Kombi Prijevoz",
+    "service-3-third": "Avionski Prijevoz",
+    "service-3-fourth": "Express Pošiljke",
+    "title-4": "Kontakt podaci",
+    "address-4": "Adresa Ureda",
+    "phone-4": "Telefon",
+    "copyright": "Sva Prava Zadržana.",
+    "made-by": "Made by Omnilink with"
+  },
+  "contact": {
+    "section-title": "Kontaktirajte nas",
+    "section-link": "Početna",
+    "contact-subtitle":"Stupite u kontakt",
+    "contact-title": "Kontaktirajte nas",
+    "contact-call": "Nazovite nas",
+    "contact-office": "Lokacija Ureda",
+    "contact-mail": "Pošaljite nam E-mail",
+    "contact-available": "Radno Vrijeme",
+    "contact-hours": "Ponedjeljak - Petak",
+    "form-title": "Slobodno nam pišite",
+    "form-name": "Puno ime",
+    "form-email": "E-mail",
+    "form-phone": "Mobitel",
+    "form-company": "Tvrtka",
+    "form-message": "Poruka",
+    "form-button": "Pošalji poruku"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "slider": {
+    "slider-button": "Contactez-Nous",
+    "slider-1-category": "Transport par Camion",
+    "slider-1-title": "Transport rapide et fiable <br /><span>de vos</span> <br />produits",
+    "slider-1-description": "Avec des années d'expérience et des milliers de <br /> kilomètres derrière nous.",
+    "slider-2-category": "Envois Express",
+    "slider-2-title": "Puissance sur la route <br/> <span>fiabilité</span> dans le <br/> transport",
+    "slider-2-description": "Envoyez des colis dans toute l'UE <br/> en 24 heures !",
+    "slider-3-category": "Transport par Fourgon",
+    "slider-3-title": "Connecter <br/> <span>l'Europe</span> kilomètre<br/> par kilomètre !",
+    "slider-3-description": "Tout selon vos besoins pour <br/> une affaire parfaitement planifiée.",
+    "slider-4-category": "Transport Aérien",
+    "slider-4-title": "Vos <br/> <span>ailes</span> pour chaque<br/> voyage",
+    "slider-4-description": "Décollez avec nous et déployez <br/> les ailes de votre entreprise."
+  },
+  "about": {
+    "big-title": "Transport",
+    "category": "À PROPOS DE NOUS",
+    "title": "Entreprise logistique <br /> numérisée et éprouvée",
+    "description": "Une entreprise logistique numériquement avancée offrant des solutions de transport rapides, précises et sécurisées. Nous utilisons les dernières technologies pour optimiser les chaînes d'approvisionnement et automatiser les processus. Notre fiabilité et notre innovation garantissent efficacité et transparence à chaque étape de votre parcours logistique.",
+    "item-1-title": "Livraison rapide dans toute l'Europe",
+    "item-1-description": "Envoyez vos produits ou colis vers n'importe quelle destination à travers l'Europe.",
+    "item-2-title": "Livraison rapide et sécurisée",
+    "item-2-description": "Avec un taux de réussite de 100% dans la livraison de marchandises et de colis, nous offrons des envois express dans toute l'UE en 24 heures !"
+  },
+  "services": {
+    "category": "Nos Services",
+    "title": "Services logistiques <br /> rapides et professionnels",
+    "item-1-title": "Transport par Camion",
+    "item-1-description": "Transport jusqu'à 24t avec des camions standard, caisse ou frigorifiques de 13,6m ou tandems dans toute l'Europe. Camions de 12t et 7,5t avec bâches/caisses/frigorifiques, et transport hors gabarit",
+    "item-1-image": "/img/resource/kamion_crop.webp",
+    "item-1-icon": "/img/icon/services/road-freight.png",
+    "item-1-link": "zracni-prijevoz",
+
+    "item-2-title": "Envois Express",
+    "item-2-description": "Envois express dans toute l'UE en 24 heures",
+    "item-2-image": "/img/resource/express_posiljka.webp",
+    "item-2-icon": "/img/icon/services/road-freight.png",
+    "item-2-link": "pomorski-prijevoz",
+
+    "item-3-title": "Transport par Fourgon",
+    "item-3-description": "Fourgon avec capacité jusqu'à 1000kg, avec rampe élévatrice et chariot élévateur manuel",
+    "item-3-image": "/img/resource/kombi.webp",
+    "item-3-icon": "/img/icon/services/road-freight.png",
+    "item-3-link": "cestovni-prijevoz",
+
+    "item-4-title": "Transport Aérien",
+    "item-4-description": "Nous vous connectons à toutes les destinations, rapidement et de manière fiable",
+    "item-4-image": "/img/resource/airplane.webp",
+    "item-4-icon": "/img/icon/services/air-freight.png",
+    "item-4-link": "cestovni-prijevoz"
+  },
+  "steps": {
+    "category": "Découvrez Nos Étapes",
+    "title": "Notre Processus de Gestion du Fret",
+    "item-1-title": "Étape - 1",
+    "item-1-description": "Après avoir envoyé une demande pour votre transport à notre adresse e-mail, nous vous contactons et vérifions les adresses de chargement et de déchargement, la durée de transport que vous souhaitez, le type de marchandises et les dimensions des marchandises.",
+    "item-2-title": "Étape - 2",
+    "item-2-description": "Nous proposons une option pour votre transport et attendons la confirmation de votre part.",
+    "item-3-title": "Étape - 3",
+    "item-3-description": "Nos équipes travailleront dur à chaque étape du voyage pour s'assurer que votre envoi soit livré à temps."
+  },
+  "banner": {
+    "title": "Votre partenaire logistique offrant des services de la plus haute qualité",
+    "button": "Demander un Service"
+  },
+  "why-us": {
+    "category": "Pourquoi Nous?",
+    "title": "Plusieurs raisons de nous choisir",
+    "item-1-title": "Grand Réseau",
+    "item-1-description": "LogX connecte votre entreprise avec des centres internationaux dans toute l'Union Européenne.",
+    "item-1-icon": "icon-global-network",
+
+    "item-2-title": "Livraison Ponctuelle",
+    "item-2-description": "Vous passez la commande, et nous nous occupons du reste. De la collecte au dédouanement et au suivi.",
+    "item-2-icon": "icon-right-time-delivery",
+
+    "item-3-title": "Soutien Pendant le Service",
+    "item-3-description": "Notre équipe dévouée est à la tâche, suivant chaque étape de votre envoi et toujours disponible pour la communication.",
+    "item-3-icon": "icon-support",
+
+    "item-4-title": "Envois Spéciaux",
+    "item-4-description": "Si vos marchandises nécessitent un transport, un stockage et une manipulation spéciaux, nous avons l'expertise nécessaire.",
+    "item-4-icon": "icon-special-shipments",
+
+    "item-5-title": "Solutions Personnalisées",
+    "item-5-description": "Nous fournissons des solutions personnalisées pour tous les produits qui peuvent être transportés avec nos véhicules.",
+    "item-5-icon": "icon-enter-product-details",
+
+    "item-6-title": "Entreprise Estimée",
+    "item-6-description": "Plus de 100 clients nous ont choisis comme leur partenaire de transport en raison de notre compétitivité et de la qualité de notre service.",
+    "item-6-icon": "icon-esteemed-company"
+  },
+  "counters": {
+    "first": "Clients Satisfaits",
+    "second": "Colis Livrés avec Succès",
+    "third": "Kilomètres Parcourus",
+    "fourth": "Véhicules dans Notre Flotte"
+  },
+  "footer": {
+    "title-1": "À Propos de LogX",
+    "description-1": "Une entreprise logistique fiable avec des années d'expérience dans le transport et le stockage sécurisés de marchandises.<br></br><br/> Notre équipe d'experts fournit des solutions personnalisées pour tous types de transport, avec une garantie de précision et de livraison à temps.<br></br> Notre priorité est la sécurité de vos marchandises et la satisfaction du client.",
+    "title-2": "Emplacement",
+    "availability-2": "Nous sommes disponibles:",
+    "hours-2": "Lun-Ven:",
+    "title-3": "Nos Services",
+    "service-3-first": "Transport par Camion",
+    "service-3-second": "Transport par Fourgon",
+    "service-3-third": "Transport Aérien",
+    "service-3-fourth": "Envois Express",
+    "title-4": "Informations de Contact",
+    "address-4": "Adresse du Bureau",
+    "phone-4": "Téléphone",
+    "copyright": "Tous Droits Réservés.",
+    "made-by": "Réalisé par Omnilink avec"
+  },
+  "contact": {
+    "section-title": "Contactez-nous",
+    "section-link": "Accueil",
+    "contact-subtitle": "Entrez en contact",
+    "contact-title": "Contactez-nous",
+    "contact-call": "Appelez-nous",
+    "contact-office": "Emplacement du Bureau",
+    "contact-mail": "Envoyez-nous un E-mail",
+    "contact-available": "Heures d'Ouverture",
+    "contact-hours": "Lundi - Vendredi",
+    "form-title": "N'hésitez pas à nous écrire",
+    "form-name": "Nom complet",
+    "form-email": "E-mail",
+    "form-phone": "Téléphone mobile",
+    "form-company": "Entreprise",
+    "form-message": "Message",
+    "form-button": "Envoyer le message"
+  }
+}

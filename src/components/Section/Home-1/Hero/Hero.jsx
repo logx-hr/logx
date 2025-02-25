@@ -6,16 +6,18 @@ import 'swiper/css/effect-fade';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 
 
 const Hero = () => {
+  const t = useTranslations();
   return (
     <section className="main-slider main-slider-one">
       <Swiper
         className="swiper-container thm-swiper__slider"
         slidesPerView={1}
         loop={true}
-        lazy={true}
+        lazy="true"
         pagination={{
           el: "#main-slider-pagination",
           type: "bullets",
@@ -52,20 +54,15 @@ const Hero = () => {
               <div className="main-slider-one__single padding">
                 <div className="main-slider-one__content">
                   <h3>
-                    <span>01.</span> Kamionski prijevoz
+                    <span>01.</span> {t('slider.slider-1-category')}
                   </h3>
-                  <h2>
-                    Brzi i pouzdani <br />
-                    <span>transport</span> vaših <br />
-                    proizvoda
+                  <h2 dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-1-title') }} >
                   </h2>
-                  <p>
-                    Sa godinama iskustva i tisućama pređenih <br />
-                    kilometara iza nas.
+                  <p dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-1-description') }} >
                   </p>
                   <div className="btn-box">
                     <Link className="thm-btn" href="contact">
-                      <span className="txt">Kontaktirajte nas</span>
+                      <span className="txt">{t('slider.slider-button')}</span>
                     </Link>
                   </div>
                 </div>
@@ -92,20 +89,15 @@ const Hero = () => {
               <div className="main-slider-one__single padding">
                 <div className="main-slider-one__content">
                   <h3>
-                    <span>02.</span> Express Pošiljke
+                    <span>02.</span> {t('slider.slider-2-category')}
                   </h3>
-                  <h2>
-                    Snaga na cesti <br/>
-                    <span>pouzdanost</span> u <br/>
-                    prijevozu
+                  <h2 dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-2-title') }} >
                   </h2>
-                  <p>
-                    Šaljite pošiljke unutar cijele EU <br/>
-                    u roku od 24 sata!
+                  <p dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-2-description') }} >
                   </p>
                   <div className="btn-box">
                     <Link className="thm-btn" href="contact">
-                      <span className="txt">Kontaktirajte nas</span>
+                      <span className="txt">{t('slider.slider-button')}</span>
                     </Link>
                   </div>
                 </div>
@@ -132,20 +124,15 @@ const Hero = () => {
               <div className="main-slider-one__single padding">
                 <div className="main-slider-one__content">
                   <h3>
-                    <span>03.</span> Kombi prijevoz
+                    <span>03.</span> {t('slider.slider-3-category')}
                   </h3>
-                  <h2>
-                    Povezujemo <br/>
-                    <span>Europu </span> kilometar<br/>
-                    po kilometar!
+                  <h2 dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-3-title') }} >
                   </h2>
-                  <p>
-                    Sve prema Vašoj potrebi za <br/>
-                    savršeno isplanirani posao.
+                  <p dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-3-description') }} >
                   </p>
                   <div className="btn-box">
                     <Link className="thm-btn" href="contact">
-                      <span className="txt">Kontaktirajte nas</span>
+                      <span className="txt">{t('slider.slider-button')}</span>
                     </Link>
                   </div>
                 </div>
@@ -172,20 +159,15 @@ const Hero = () => {
               <div className="main-slider-one__single padding">
                 <div className="main-slider-one__content">
                   <h3>
-                    <span>04.</span> Avionski prijevoz
+                    <span>04.</span> {t('slider.slider-4-category')}
                   </h3>
-                  <h2>
-                    Vaša <br/>
-                    <span>krila </span> za svako<br/>
-                    putovanje
+                  <h2 dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-4-title') }} >
                   </h2>
-                  <p>
-                    Poletite s nama i raširite <br/>
-                    krila svog poslovanja.
+                  <p dangerouslySetInnerHTML={{ __html: t.raw('slider.slider-4-description') }} >
                   </p>
                   <div className="btn-box">
                     <Link className="thm-btn" href="contact">
-                      <span className="txt">Kontaktirajte nas</span>
+                      <span className="txt">{t('slider.slider-button')}</span>
                     </Link>
                   </div>
                 </div>

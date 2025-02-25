@@ -1,0 +1,142 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "slider": {
+    "slider-button": "Contáctenos",
+    "slider-1-category": "Transporte en Camión",
+    "slider-1-title": "Transporte rápido y confiable <br /><span>de sus</span> <br />productos",
+    "slider-1-description": "Con años de experiencia y miles de <br /> kilómetros recorridos.",
+    "slider-2-category": "Envíos Express",
+    "slider-2-title": "Potencia en la carretera <br/> <span>fiabilidad</span> en el <br/> transporte",
+    "slider-2-description": "¡Envíe paquetes por toda la UE <br/> en 24 horas!",
+    "slider-3-category": "Transporte en Furgoneta",
+    "slider-3-title": "Conectando <br/> <span>Europa</span> kilómetro<br/> a kilómetro!",
+    "slider-3-description": "Todo de acuerdo a sus necesidades para <br/> un negocio perfectamente planificado.",
+    "slider-4-category": "Transporte Aéreo",
+    "slider-4-title": "Sus <br/> <span>alas</span> para cada<br/> viaje",
+    "slider-4-description": "Despegue con nosotros y extienda <br/> las alas de su negocio."
+  },
+  "about": {
+    "big-title": "Transporte",
+    "category": "SOBRE NOSOTROS",
+    "title": "Empresa logística <br /> digitalizada y probada",
+    "description": "Una empresa logística digitalmente avanzada que proporciona soluciones de transporte rápidas, precisas y seguras. Utilizamos las últimas tecnologías para optimizar cadenas de suministro y automatizar procesos. Nuestra fiabilidad e innovación garantizan eficiencia y transparencia en cada paso de su viaje logístico.",
+    "item-1-title": "Entrega rápida en toda Europa",
+    "item-1-description": "Envíe sus productos o paquetes a cualquier ubicación en Europa.",
+    "item-2-title": "Entrega rápida y segura",
+    "item-2-description": "¡Con un 100% de éxito en la entrega de mercancías y paquetes, ofrecemos envíos express en toda la UE en 24 horas!"
+  },
+  "services": {
+    "category": "Nuestros Servicios",
+    "title": "Servicios logísticos <br /> rápidos y profesionales",
+    "item-1-title": "Transporte en Camión",
+    "item-1-description": "Transporte de hasta 24t con camiones estándar, caja o refrigerados de 13,6m o tándems por toda Europa. Camiones de 12t y 7,5t con lonas/cajas/refrigerados, y transporte de carga sobredimensionada",
+    "item-1-image": "/img/resource/kamion_crop.webp",
+    "item-1-icon": "/img/icon/services/road-freight.png",
+    "item-1-link": "zracni-prijevoz",
+
+    "item-2-title": "Envíos Express",
+    "item-2-description": "Envíos express por toda la UE en 24 horas",
+    "item-2-image": "/img/resource/express_posiljka.webp",
+    "item-2-icon": "/img/icon/services/road-freight.png",
+    "item-2-link": "pomorski-prijevoz",
+
+    "item-3-title": "Transporte en Furgoneta",
+    "item-3-description": "Furgoneta con capacidad de hasta 1000kg, con rampa elevadora y carretilla manual",
+    "item-3-image": "/img/resource/kombi.webp",
+    "item-3-icon": "/img/icon/services/road-freight.png",
+    "item-3-link": "cestovni-prijevoz",
+
+    "item-4-title": "Transporte Aéreo",
+    "item-4-description": "Le conectamos con todos los destinos, de forma rápida y fiable",
+    "item-4-image": "/img/resource/airplane.webp",
+    "item-4-icon": "/img/icon/services/air-freight.png",
+    "item-4-link": "cestovni-prijevoz"
+  },
+  "steps": {
+    "category": "Conozca Nuestros Pasos",
+    "title": "Nuestro Proceso de Manejo de Carga",
+    "item-1-title": "Paso - 1",
+    "item-1-description": "Después de enviar una consulta para su transporte a nuestra dirección de correo electrónico, nos ponemos en contacto con usted y verificamos las direcciones de carga y descarga, la duración del transporte que desea, el tipo de mercancía y las dimensiones de la mercancía.",
+    "item-2-title": "Paso - 2",
+    "item-2-description": "Ofrecemos una opción para su transporte y esperamos la confirmación de su parte.",
+    "item-3-title": "Paso - 3",
+    "item-3-description": "Nuestros equipos trabajarán arduamente en cada etapa del viaje para garantizar que su envío se entregue a tiempo."
+  },
+  "banner": {
+    "title": "Su socio logístico que ofrece servicios de la más alta calidad",
+    "button": "Solicitar Servicio"
+  },
+  "why-us": {
+    "category": "¿Por Qué Nosotros?",
+    "title": "Varias razones para elegirnos",
+    "item-1-title": "Amplia Red",
+    "item-1-description": "LogX conecta su negocio con centros internacionales en toda la Unión Europea.",
+    "item-1-icon": "icon-global-network",
+
+    "item-2-title": "Entrega Puntual",
+    "item-2-description": "Usted realiza el pedido y nosotros nos encargamos del resto. Desde la recogida hasta el despacho de aduanas y el seguimiento.",
+    "item-2-icon": "icon-right-time-delivery",
+
+    "item-3-title": "Soporte Durante el Servicio",
+    "item-3-description": "Nuestro equipo dedicado está en la tarea, rastreando cada paso de su envío y siempre disponible para comunicación.",
+    "item-3-icon": "icon-support",
+
+    "item-4-title": "Envíos Especiales",
+    "item-4-description": "Si sus mercancías requieren transporte especial, almacenamiento y manipulación, contamos con la experiencia necesaria.",
+    "item-4-icon": "icon-special-shipments",
+
+    "item-5-title": "Soluciones Personalizadas",
+    "item-5-description": "Proporcionamos soluciones personalizadas para todos los productos que pueden ser transportados con nuestros vehículos.",
+    "item-5-icon": "icon-enter-product-details",
+
+    "item-6-title": "Empresa Estimada",
+    "item-6-description": "Más de 100 clientes nos han elegido como su socio de transporte debido a nuestra competitividad y calidad de servicio.",
+    "item-6-icon": "icon-esteemed-company"
+  },
+  "counters": {
+    "first": "Clientes Satisfechos",
+    "second": "Paquetes Entregados con Éxito",
+    "third": "Kilómetros Recorridos",
+    "fourth": "Vehículos en Nuestra Flota"
+  },
+  "footer": {
+    "title-1": "Sobre LogX",
+    "description-1": "Una empresa logística confiable con años de experiencia en el transporte y almacenamiento seguro de mercancías.<br></br><br/> Nuestro equipo de expertos proporciona soluciones personalizadas para todo tipo de transporte, con garantía de precisión y entrega puntual.<br></br> Nuestra prioridad es la seguridad de sus mercancías y la satisfacción del cliente.",
+    "title-2": "Ubicación",
+    "availability-2": "Estamos disponibles:",
+    "hours-2": "Lun-Vie:",
+    "title-3": "Nuestros Servicios",
+    "service-3-first": "Transporte en Camión",
+    "service-3-second": "Transporte en Furgoneta",
+    "service-3-third": "Transporte Aéreo",
+    "service-3-fourth": "Envíos Express",
+    "title-4": "Información de Contacto",
+    "address-4": "Dirección de la Oficina",
+    "phone-4": "Teléfono",
+    "copyright": "Todos los Derechos Reservados.",
+    "made-by": "Hecho por Omnilink con"
+  },
+  "contact": {
+    "section-title": "Contáctenos",
+    "section-link": "Inicio",
+    "contact-subtitle": "Póngase en contacto",
+    "contact-title": "Contáctenos",
+    "contact-call": "Llámenos",
+    "contact-office": "Ubicación de la Oficina",
+    "contact-mail": "Envíenos un Email",
+    "contact-available": "Horario Laboral",
+    "contact-hours": "Lunes - Viernes",
+    "form-title": "No dude en escribirnos",
+    "form-name": "Nombre completo",
+    "form-email": "Email",
+    "form-phone": "Teléfono móvil",
+    "form-company": "Empresa",
+    "form-message": "Mensaje",
+    "form-button": "Enviar mensaje"
+  }
+}

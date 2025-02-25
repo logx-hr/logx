@@ -1,0 +1,142 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "slider": {
+    "slider-button": "Contact Us",
+    "slider-1-category": "Truck Transport",
+    "slider-1-title": "Fast and reliable <br /><span>transport</span> of your <br />products",
+    "slider-1-description": "With years of experience and thousands of <br /> kilometers behind us.",
+    "slider-2-category": "Express Shipments",
+    "slider-2-title": "Power on the road <br/> <span>reliability</span> in <br/> transport",
+    "slider-2-description": "Send shipments across the entire EU <br/> within 24 hours!",
+    "slider-3-category": "Van Transport",
+    "slider-3-title": "Connecting <br/> <span>Europe</span> kilometer<br/> by kilometer!",
+    "slider-3-description": "Everything according to your needs for <br/> perfectly planned business.",
+    "slider-4-category": "Air Transport",
+    "slider-4-title": "Your <br/> <span>wings</span> for every<br/> journey",
+    "slider-4-description": "Take off with us and spread <br/> the wings of your business."
+  },
+  "about": {
+    "big-title": "Transport",
+    "category": "ABOUT US",
+    "title": "Digitalized and proven <br /> logistics company",
+    "description": "A digitally advanced logistics company providing fast, precise, and secure transportation solutions. We use the latest technologies to optimize supply chains and automate processes. Our reliability and innovation ensure efficiency and transparency at every step of your logistics journey.",
+    "item-1-title": "Fast delivery throughout Europe",
+    "item-1-description": "Send your products or packages to any location across Europe.",
+    "item-2-title": "Fast and secure delivery",
+    "item-2-description": "With 100% success rate in goods and package delivery, we offer express shipments throughout the EU within 24 hours!"
+  },
+  "services": {
+    "category": "Our Services",
+    "title": "Fast and professional <br /> logistics services",
+    "item-1-title": "Truck Transport",
+    "item-1-description": "Transport up to 24t with standard, box, or refrigerated trucks 13.6m or tandems throughout Europe. 12t and 7.5t trucks with tarps/box/refrigerated, and oversized transport",
+    "item-1-image": "/img/resource/kamion_crop.webp",
+    "item-1-icon": "/img/icon/services/road-freight.png",
+    "item-1-link": "zracni-prijevoz",
+
+    "item-2-title": "Express Shipments",
+    "item-2-description": "Express shipments throughout the EU within 24 hours",
+    "item-2-image": "/img/resource/express_posiljka.webp",
+    "item-2-icon": "/img/icon/services/road-freight.png",
+    "item-2-link": "pomorski-prijevoz",
+
+    "item-3-title": "Van Transport",
+    "item-3-description": "Van with capacity up to 1000kg, with a lifting ramp and manual forklift",
+    "item-3-image": "/img/resource/kombi.webp",
+    "item-3-icon": "/img/icon/services/road-freight.png",
+    "item-3-link": "cestovni-prijevoz",
+
+    "item-4-title": "Air Transport",
+    "item-4-description": "We connect you with all destinations, quickly and reliably",
+    "item-4-image": "/img/resource/airplane.webp",
+    "item-4-icon": "/img/icon/services/air-freight.png",
+    "item-4-link": "cestovni-prijevoz"
+  },
+  "steps": {
+    "category": "Check Our Steps",
+    "title": "Our Cargo Handling Process",
+    "item-1-title": "Step - 1",
+    "item-1-description": "After you send an inquiry for your transport to our email address, we contact you and check the loading and unloading addresses, the transport duration you want, type of goods, and dimensions of the goods.",
+    "item-2-title": "Step - 2",
+    "item-2-description": "We offer an option for your transport and wait for confirmation from your side.",
+    "item-3-title": "Step - 3",
+    "item-3-description": "Our teams will work hard at every step of the journey to ensure that your shipment is delivered on time."
+  },
+  "banner": {
+    "title": "Your logistics partner offering the highest quality services",
+    "button": "Request Service"
+  },
+  "why-us": {
+    "category": "Why Us?",
+    "title": "Several reasons to choose us",
+    "item-1-title": "Large Network",
+    "item-1-description": "LogX connects your business with international hubs throughout the European Union.",
+    "item-1-icon": "icon-global-network",
+
+    "item-2-title": "On-time Delivery",
+    "item-2-description": "You place the order, and we'll take care of the rest. From pickup to customs clearance and tracking.",
+    "item-2-icon": "icon-right-time-delivery",
+
+    "item-3-title": "Support Throughout Service",
+    "item-3-description": "Our dedicated team is on task, tracking every step of your shipment and always available for communication.",
+    "item-3-icon": "icon-support",
+
+    "item-4-title": "Special Shipments",
+    "item-4-description": "If your goods require special transport, storage, and handling, we have the necessary expertise.",
+    "item-4-icon": "icon-special-shipments",
+
+    "item-5-title": "Customized Solutions",
+    "item-5-description": "We provide personalized solutions for all products that can be transported with our vehicles.",
+    "item-5-icon": "icon-enter-product-details",
+
+    "item-6-title": "Esteemed Company",
+    "item-6-description": "More than 100 clients have chosen us as their transport partner due to our competitiveness and service quality.",
+    "item-6-icon": "icon-esteemed-company"
+  },
+  "counters": {
+    "first": "Satisfied Clients",
+    "second": "Successfully Delivered Packages",
+    "third": "Kilometers Traveled",
+    "fourth": "Vehicles in Our Fleet"
+  },
+  "footer": {
+    "title-1": "About LogX",
+    "description-1": "A reliable logistics company with years of experience in safe transport and storage of goods.<br></br><br/> Our expert team provides personalized solutions for all types of transport, with a guarantee of accuracy and timely delivery.<br></br> Our priority is the safety of your goods and customer satisfaction.",
+    "title-2": "Location",
+    "availability-2": "We are available:",
+    "hours-2": "Mon-Fri:",
+    "title-3": "Our Services",
+    "service-3-first": "Truck Transport",
+    "service-3-second": "Van Transport",
+    "service-3-third": "Air Transport",
+    "service-3-fourth": "Express Shipments",
+    "title-4": "Contact Information",
+    "address-4": "Office Address",
+    "phone-4": "Phone",
+    "copyright": "All Rights Reserved.",
+    "made-by": "Made by Omnilink with"
+  },
+  "contact": {
+    "section-title": "Contact Us",
+    "section-link": "Home",
+    "contact-subtitle": "Get in touch",
+    "contact-title": "Contact Us",
+    "contact-call": "Call Us",
+    "contact-office": "Office Location",
+    "contact-mail": "Send Us an Email",
+    "contact-available": "Working Hours",
+    "contact-hours": "Monday - Friday",
+    "form-title": "Feel free to write to us",
+    "form-name": "Full name",
+    "form-email": "Email",
+    "form-phone": "Mobile phone",
+    "form-company": "Company",
+    "form-message": "Message",
+    "form-button": "Send message"
+  }
+}
