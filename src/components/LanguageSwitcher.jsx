@@ -64,7 +64,7 @@ export default function LanguageSwitcher() {
             const currentFlag = i18nConfig.flagMap[currentLocale];
 
             // Create and set the background image for the select
-            selectRef.current.style.backgroundImage = `url(https://flagcdn.com/w20/${currentFlag}.png), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`;
+            selectRef.current.style.backgroundImage = `url(https://flagcdn.com/w20/${currentFlag}.png)`;
             selectRef.current.style.backgroundPosition = "10px center, right 0.5rem center";
             selectRef.current.style.backgroundRepeat = "no-repeat, no-repeat";
             selectRef.current.style.backgroundSize = "16px auto, 16px 12px";
