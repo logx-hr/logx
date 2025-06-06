@@ -137,6 +137,8 @@
     "form-phone": "Mobile phone",
     "form-company": "Company",
     "form-message": "Message",
-    "form-button": "Send message"
+    "form-button": "Send message",
+    "form-email-submitted": "Email sent successfully!",
+    "form-email-not-submitted": "Email not sent, error occurred!"
   }
 }

@@ -137,6 +137,8 @@
     "form-phone": "Mobitel",
     "form-company": "Tvrtka",
     "form-message": "Poruka",
-    "form-button": "Pošalji poruku"
+    "form-button": "Pošalji poruku",
+    "form-email-submitted": "E-mail uspješno poslan!",
+    "form-email-not-submitted": "Došlo je do greške, email nije poslan!"
   }
 }
